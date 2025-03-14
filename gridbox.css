@@ -1,0 +1,96 @@
+body{
+    background: black;
+}
+.header{
+    background-color:rgba(49, 53, 34, 0.505)    ;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5px;
+    margin-bottom: 60px;
+}
+.header img{
+    width: 50%;
+    height: 66%;
+}
+.header nav{
+    font-size: 115%;
+    font-weight: bold;
+}
+.header > nav > a{
+    color: #ddd;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.header > nav > a:hover{
+    color:  #FFEE58 ;
+    text-decoration:#FFEE58 underline;
+}
+.header div:last-child{
+  background:#FFEE58;
+  height:25px;
+  border-radius:20px;  
+  margin-top:13px;
+}
+.header input{
+    border:black;
+    border-radius: 25PX;
+    outline-color: azure;
+    height: 25PX;
+    color: azure;
+    background-color: #444;
+}
+.article{
+   text-align: center;
+   margin-bottom: 80px;
+
+}
+.article p {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.article div{
+    color: antiquewhite;
+    
+}
+.gridbox{
+    display: grid;
+    grid-gap: 30px 20px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    margin: auto;
+    width: 90%;
+}
+.gridbox img {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+.gridbox a {
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 115%;
+}
+.gridbox a:hover{
+    text-decoration: underline;
+   color:  #FFEE58;
+}
+.gridbox section div:last-child{
+    color:#FFF9C4;
+}
+.gridbox section{
+    transition: 0.2s;
+}
+.gridbox section:hover{
+    scale: 1.1;
+    transition: all 0.3s;
+}
+.footer{
+    color: #ddd;
+    background-color:rgba(49, 53, 34, 0.505) ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 20px 30px;
+}
